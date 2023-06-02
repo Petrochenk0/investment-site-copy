@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,1,8,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+ .nav-class{ /* классическте стили для навигационной панели */
+    display:flex;
+    height:80px;
+    background-color: rgba(18, 18, 18, 0.2);
+    backdrop-filter: blur(8px);
+    color:white;
+}
+.nav-class h3{
+    color: white;
+    font-size: 25px;
+    padding:1em;
+    font-weight:bold;
+}
+ .nav-class ul{ /* Делаем так чтобы два слова были в самой правой части страницы */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    font-weight: bold;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right:1em;
+}
+#animation-hover{
+    transition: transform 0.3s ease;
+  }
+  
+#animation-hover:hover {
+    transform: scale(1.2);
+}
+.nav-class-li{
+    margin-left:15px;
+
+}
+.nav-class-ul .nav-class-li:first-child {
+    margin-left: 0; /* Убираем отступ у первого пункта */
+}
+.nav-class-ul .nav-class-li a {
+    text-decoration: none;
+    color: white;
+}
+.div-class-p-h1{
+    width:1094px;
+    margin-top:8em;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media (max-width:1024px){
+    .div-class-p-h1{
+        width:100%;
+    }
+}
+@media (max-width:768px){
+    .div-class-p-h1{
+        width:100%;
+    }
+}
+.p-class-up-h1{
+    color: white;
+    font-size: 17px;
+}
+.h1-class-down-p{
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+}
+.div-class-for-center-block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.h1-class-down-h1{
+    color: white;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5em;
+    width:1000px;
+    font-size: 60px;
+}
+@media (max-width:768px){
+    .h1-class-down-h1{
+        width:100%;
+    }
+}
+.p-class-down-h1{
+    display:flex;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+    color:white;
+    font-size: 18px;
+}
+@media (max-width:768px){
+    .p-class-down-h1{
+        width:100%;
+    }
+}
+.div-class-for-flex{
+    display:flex;
+    justify-content: center;
+    margin-top:5em;
+}
+@media (max-width:768px){
+    .div-class-for-flex{
+        display:block;
+    }
+    .div-class-first{
+        margin-bottom:2em;
+    }
+    .div-class-second{
+        margin-bottom:2em;
+    }
+    .div-class-third{
+        margin-bottom:2em;
+    }
+}
+.div-class-first{
+    padding:1em;
+    border:2px solid #40FFE4;
+    color:white;
+    width:360px;
+    margin-left:4em;
+}
+.div-class-first h4{
+    margin-bottom:1em;
+}
+.div-class-second{
+    padding:1em;
+    border:2px solid #40FFE4;
+    color:white;
+    width:360px;
+    margin-left:4em;
+}
+.div-class-third{
+    padding:1em;
+    border:2px solid #40FFE4;
+    color:white;
+    width:360px;
+    margin-left:4em;
+}
+.h1-class-white{
+    display:flex;
+    color: white;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5em;
+    font-size:60px;
+    width:1000px;
+    text-align:center;
+}
+@media (max-width:768px){
+    .h1-class-white{
+        width:100%;
+    }
+}
+.p-class-white{
+    display:flex;
+    color: white;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1em;
+    font-size:18px;
+    width:1000px;
+    text-align:center;
+}
+@media (max-width:768px){
+    .p-class-white{
+        width:100%;
+    }
+}
+.div-class-for-flex-second{
+    display:flex;
+    margin-top:3em;
+    text-align: center;
+    justify-content: center;
+}
+.div-class-first-qr{
+    color:white;
+    width:600px;
+    border:2px solid #40FFE4;
+    justify-content: center;
+    text-align:center;
+    padding:24px;
+}
+.div-class-first-qr h3{
+    font-weight: bold;
+    margin-bottom:1em;
+}
+.div-class-first-qr p{
+    margin-bottom:1em;
+}
+
+.img-class-qr{
+    margin-bottom:-1.8em;
+}
+.img-class-contact{
+    margin-bottom:-1.8em;
+}
+.div-class-second-contact{
+    color:white;
+    width:600px;
+    border:2px solid #40FFE4;
+    margin-left:5em;
+    justify-content: center;
+    text-align:center;
+    padding:24px;
+}
+.div-class-second-contact h3{
+    font-weight: bold;
+    margin-bottom:1em;
+}
+.div-class-second-contact p{
+    margin-bottom:1em;
+}
+@media (max-width:768px){
+    .div-class-for-flex-second{
+        display:block;
+    }
+    .div-class-first-qr{
+        width:100%;
+        margin-bottom:2em;
+    }
+    .div-class-second-contact{
+        width:100%;
+        margin:0;
+    }
+}
+.road-map{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5em;
+    margin-bottom:2em;
+}
+@media (max-width:768px){
+    .road-map{
+        width:100%;
+    }
+}
+@media (max-width:1024px){
+    .road-map{
+        width:100%;
+    }
+}
+@media (max-width:1300px){
+    .road-map{
+        width:100%;
+    }
+}
+.div-class-for-flex-footer{
+    display:flex;
+    justify-content: center;
+    padding:10em;
+    height:100%;
+}
+footer{
+    background-color: rgba(18, 18, 18, 0.2);
+    backdrop-filter: blur(8px);
+    height:400px;
+    color:white;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer ul{
+    justify-content: space-between;
+    margin-left:2em;
+}
+footer li{
+    list-style-type: none;
+    margin-bottom:2em;
+}
+.h1-class-logo{
+    display:flex;
+    margin-right:auto;
+}
+.div-first-block{
+    display:flex;
+    justify-content: center;
+    margin-right:auto;
+}
+.div-second-block{
+    display:flex;
+    justify-content: center;
+    margin-right:auto;
+}
+@media (max-width:300px){
+    footer{
+        height:100%;
+        width:100%;
+    }
+    .div-class-for-flex-footer{
+        display:flex;
+        height:100%;
+    }
+}
+@media (max-width:768px){
+    .div-class-for-flex-footer{
+        display:flex;
+        margin-left:5em;
+        margin-right:3em;
+        height:100%;
+    }
+    footer{
+        height:100%;
+        width:100%;
+    }
+    .h1-class-logo{
+        margin-left:0;
+    }
+    .div-first-block{
+        display:block;
+    }
+}
+@media (max-width:209){
+    footer{
+        height:100%;
+        width:100%;
+    }
+    .div-class-for-flex-footer{
+        display:block;
+        height:100%;
+    }
+}
