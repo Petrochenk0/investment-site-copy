@@ -37,7 +37,7 @@
 1. Склонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/your-username/crypto-wallet.git
+    git clone https://github.com/Petrochenk0/crypto-wallet.git
     ```
 
 2. Откройте `index.html` в вашем любимом веб-браузере.
